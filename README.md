@@ -37,7 +37,7 @@ assets/fig3_crown132_yangambi/      the 44 crown thumbnails of Fig. 3b
 
 ## Reproducing the analyses (figures 3, 5, 6, S1, S2 and tables 2, 3, S1, S2)
 
-1. Obtain the data folder `Article_canopy_deciduousness_data` (University of Liège data repository, see *Data availability*)
+1. Download the data folder `Article_canopy_deciduousness_data` from https://dox.uliege.be/s/XdLtrctZD2N9MiJ
    and copy its content into `data/` (or point the environment variable `DATA_DIR` to it).
 2. Install the dependencies (Python ≥ 3.10): `pip install -r requirements.txt`
    (only the first block is needed for `analysis/`).
@@ -90,14 +90,15 @@ those of the analysed crowns.
 
 ## Data availability
 
-- **Data (`Article2_data`, University of Liège data repository, available from the authors on request):** per-crown leaf-presence time series, crown metrics,
+- **Data (`Article_canopy_deciduousness_data`, University of Liège repository, https://dox.uliege.be/s/XdLtrctZD2N9MiJ):** per-crown leaf-presence time series, crown metrics,
   crown polygons, species and leaf habit of the field-identified crowns, terrain descriptors,
   daily climate series, DINOv2 features and labels of the photo-interpreted points, and a document
   showing the leaf-presence probability map of every acquisition. See `docs/DATA_README.md` (also in the data folder).
 - **Model:** `model/leaf_presence_logreg.joblib` (dictionary with the fitted `model`, `scaler` and
   `feature_cols`); positive class = leaf absence, leaf-presence probability = 1 − p.
-- **Orthomosaics and probability rasters:** available through the CanObs network
-  (https://www.canobs.net) on request.
+- **Probability rasters:** the leaf-presence probability map of every acquisition (GeoTIFF) is in the
+  same data folder (`Leafproba/<site>/<YYYYMMDD>_proba_L.tif`).
+- **Orthomosaics:** available through the CanObs network (https://www.canobs.net) on request.
 
 ## Notes
 

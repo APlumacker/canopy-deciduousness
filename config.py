@@ -1,7 +1,7 @@
 """
 Paths and constants shared by all scripts.
 
-DATA_DIR    : the data folder Article2_data (see README). Default: ./data
+DATA_DIR    : the data folder Article_canopy_deciduousness_data (see README). Default: ./data
 RESULTS_DIR : where analysis outputs are written. Default: ./results
 Both can be overridden with the environment variables of the same name.
 

@@ -1,4 +1,4 @@
-# Article2_data: crown-scale canopy deciduousness from UAV time series in Central Africa
+# Article_canopy_deciduousness_data: crown-scale canopy deciduousness from UAV time series in Central Africa
 
 Data supporting Plumacker et al., *Continuous UAV monitoring across canopy observatories reveals
 diversity and climatic control of canopy deciduousness in Central Africa*. The analysis code is at
@@ -24,10 +24,10 @@ Stored in the University of Liège data repository; contact: Antoine Plumacker (
 | `climate/climate_daily_<site>.csv` | Daily rainfall (IMERG V07) and vapour pressure deficit (NASA POWER) |
 | `model/photointerpretation_points_features.csv.gz` | Labels and DINOv2 features of the 199,681 photo-interpreted points with a valid label and feature value (Luki, Yangambi; 207,178 annotated points before excluding NA labels and points outside the rasters) used to train and validate the leaf-presence model |
 | `model/leaf_presence_logreg.joblib` | The leaf-presence model (also in the code repository) |
+| `Leafproba/<site>/<YYYYMMDD>_proba_L.tif` | Leaf-presence probability map of every acquisition, one value per 14 × 14-pixel patch (about 0.7 m), float32, nodata −9999 |
 | `Leaf_presence_probability_maps.docx` | The leaf-presence probability map of every acquisition (27 at Luki, 46 at Mbalmayo, 44 at Yangambi), down-sampled for display |
 
-Orthomosaics and full-resolution probability rasters are not included; they are available through
-the CanObs network on request.
+Orthomosaics are not included; they are available through the CanObs network on request.
 
 ## Columns
 
