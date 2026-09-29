@@ -37,7 +37,7 @@ assets/fig3_crown132_yangambi/      the 44 crown thumbnails of Fig. 3b
 
 ## Reproducing the analyses (figures 3, 5, 6, S1, S2 and tables 2, 3, S1, S2)
 
-1. Obtain the data folder `Article2_data` (University of Liège data repository, see *Data availability*)
+1. Obtain the data folder `Article_canopy_deciduousness_data` (University of Liège data repository, see *Data availability*)
    and copy its content into `data/` (or point the environment variable `DATA_DIR` to it).
 2. Install the dependencies (Python ≥ 3.10): `pip install -r requirements.txt`
    (only the first block is needed for `analysis/`).
