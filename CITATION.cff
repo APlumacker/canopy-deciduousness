@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article below."
+title: "canopy-deciduousness: code for crown-scale canopy deciduousness from UAV time series in Central Africa"
+authors:
+  - family-names: Plumacker
+    given-names: Antoine
+    affiliation: "TERRA Teaching and Research Centre, Gembloux Agro-Bio Tech, Université de Liège"
+license: MIT
+repository-code: "https://github.com/APlumacker/canopy-deciduousness"
+preferred-citation:
+  type: article
+  title: "Continuous UAV monitoring across canopy observatories reveals diversity and climatic control of canopy deciduousness in Central Africa"
+  authors:
+    - family-names: Plumacker
+      given-names: Antoine
+    - family-names: Besisa Nguba
+      given-names: Timothée
+    - family-names: Angoboy Ilondea
+      given-names: Bhely
+    - family-names: Barbier
+      given-names: Nicolas
+    - family-names: de Lame
+      given-names: Hugo
+    - family-names: Fayolle
+      given-names: Adeline
+    - family-names: Ploton
+      given-names: Pierre
+    - family-names: Selemani Mbavumoja
+      given-names: Trésor
+    - family-names: Tulet
+      given-names: Hadrien
+    - family-names: Vander Linden
+      given-names: Arthur
+    - family-names: Bastin
+      given-names: Jean-François
+  year: 2026
